@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Entendo o DOM (Document Object Model)</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1><time id="time">00:00:00</time></h1>
+        <button id="start" onclick="startar()" >Start </button>
+        <button id="stop" onclick="stopar()" > Stop</button>
+        <button id="reset" onclick="resetar()" >Reset</button>
+    </div>
+</body>
+<script>
+    let hh = 0;
+    let mm = 0;
+    let ss = 0;
+    let cron;
+
+    function startar() {
+        cron = setInterval(() => {
+            Cronometro()
+        }, 1000);
+        document.getElementById('reset').disabled = false;
+        document.getElementById('start').disabled = true;
+        document.getElementById('stop').disabled = false;
+    }
+
+    const stopar = () => clearInterval(cron);
+    
+    document.getElementById('stop').disabled = true;
+    setInterval(() => {
+
+    }
+    )
+
+    function resetar() {
+        clearInterval(cron)
+        hh = 0;
+        mm = 0;
+        ss = 0;
+        document.getElementById('time').innerText = "00:00:00";
+        document.getElementById('reset').disabled = true;
+        document.getElementById('start').disabled = false;
+        document.getElementById('stop').disabled = true;
+    }
+
+    function Cronometro() {
+        ss++;
+        if (ss == 60) {
+            ss = 0;
+            mm++;
+
+            if (mm == 60) {
+                mm = 0;
+                hh++;
+            }
+        }
+        
+        let format = (hh < 10 ? '0' + hh : hh) + ':' + (mm < 10 ? '0' + mm : mm) + ':' + (ss < 10 ? '0' + ss : ss);
+        document.getElementById('time').innerText = format;
+    }
+</script>
+
+</html>

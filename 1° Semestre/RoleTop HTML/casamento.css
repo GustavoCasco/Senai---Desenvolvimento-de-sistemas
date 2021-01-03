@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#FFC600,purple); /* Standard syntax (must be last) */
+
+}
+
+
+
+
+#logo-area img {
+    
+  height: 70px;
+  margin: 15px 0 0 10px;
+  margin-left: -400px;
+  
+}
+
+nav a {
+text-decoration: none;
+color: black;
+}
+
+nav ul {
+display: flex;
+align-items: center;
+font-size: 1.3em;
+height: 2.5em;
+list-style-type: none;
+justify-content: space-between;
+text-decoration: none;
+width: 75%;
+float: right;
+padding: 1em;
+}
+
+nav {
+background-color: #FFC600;
+position: fixed;
+width: 100%;
+z-index: 999;
+}
+
+nav #bt-mobile-menu {
+display: none;
+}
+
+
+nav ul > li {
+width: 100%;
+text-align: center;
+}
+
+nav ul > li > a {
+padding: 0.4em;
+display: block;
+text-decoration: none;
+color: #361a0c;
+font-weight: bold;
+}
+
+nav ul > li > a:hover {
+background-color: #6B40B8;
+color: #fff;
+}
+
+nav ul > li:last-child {
+font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;
+}
+
+ #banner {
+     text-align: center;
+     background-color: #FFF;
+ }
+
+ h1 {
+     text-align: center;
+     font-size: 2.5em;
+ }
+
+ * {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    max-width: 80%;
+    margin-left: 11%;
+
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+   
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  footer  {
+    background-color: #FFF;
+   
+    max-height: 250px;
+}
+
+#rodape ul{
+    font-size: 1.3em;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+  footer a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+#redessociais {
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+   
+
+
+}
+
+#redessociais img {
+    padding: 0.2em;
+    width: 2.5em;
+
+}
+
+#redessociais Address {
+    text-align: center;   
+    display: flex;
+    justify-content: center;
+}
+
+.btn-group .button {
+    background-color: rgb(29, 29, 29);
+    border: 1px solid rgb(85, 85, 85);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+   }
+   .btn-group{
+    display: flex;
+    justify-content: space-around;
+   }
+   .btn-group, .button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+   }
+   .btn-group .button:hover {
+    background-color: ghostwhite;
+    color: black;
+   }
+   #bt-mobile-menu{
+    display: none;
+}
+
+@media (max-width: 625px) {
+
+  nav #bt-mobile-menu {
+      display: block;
+  
+  }
+  
+  nav .bt-common-menu {
+      display: none;
+      z-index: 9999;
+      
+  }
+  
+  nav .bt-common-menu.active {
+      display: block;
+     
+  }
+  
+  nav ul.mobile-mode {
+      display: flex;
+      flex-direction: column;
+  
+   }
+   .btn-group, .button {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 20.5%;
+   }
+   
+  
+  }
+  
+  li {
+      list-style: none;
+      
+  }
+  
+  #sectioncontainer {
+      border: 2px solid beige;
+  }
+
+  @media (max-width: 625px) {
+    form > div > div,
+    form > div > fieldset > div {
+      width: 100%;
+    }
+    
+    input[type=text],
+    input[type=email],
+    input[type=password],
+    textarea,
+    select,
+     
+     
+    
+    form {
+        margin-left: -20%;
+    }
+    #double-line label {
+        margin-left: 60%;
+    }
+    input[type=checkbox] {
+        margin-left: 60%;
+    }
+    #register p {
+        margin-left: 25%;
+    }
+ 
+   .container {
+       font-size: 5em;
+    }
+ 
+  }
+  @media (min-width: 1200px) {
+    form > div > label,
+      legend {
+        text-align: right;
+      }
+    }
+ 

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="Listar" onclick="Listar()">Listar</button>
+</body>
+   
+
+<script>
+    var ajax = new XMLHttpRequest();
+
+    ajax.open('GET', 'http://localhost:5000/api/TiposUsuarios', true);
+
+    ajax.send();
+
+    ajax.onreadystatechange = Listar()
+
+    function Listar() {
+        if (Listar.readyState == 4 && Listar.status == 200) {
+            var dado = Listar.responseText;
+        }
+        document.getElementById("Listar");
+    }
+</script>
+</html>

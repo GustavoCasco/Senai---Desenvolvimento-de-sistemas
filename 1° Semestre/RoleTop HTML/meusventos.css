@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo-area {
+    background-color: #FFC600;
+    height: 100px;
+
+}
+
+#logo-area img {
+
+    height: 70px;
+    margin: 15px 0 0 10px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+    height: 2.5em;
+    list-style-type: none;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 75%;
+    float: right;
+    padding: 1em;
+}
+
+
+ #col-total {
+    display: flex;
+    text-align: center;
+ }
+ .col {
+    padding: 1em 1em;
+ }
+ .col label {
+    font-size: 1.5em;
+    font-weight: 200;
+ }
+ .col input {
+    margin: 6px 0 10px 0;
+    padding: 0.8em 1.6em;
+ }
+ .col select {
+    margin: 6px 0 10px 0;
+    padding: 0.8em 4.6em;
+ }
+ form textarea {
+    margin: 0 18px;
+ }
+ form input[type="submit"] {
+    margin: 5px 220px;
+    padding: 0.8em 1.5em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+ form input[type="submit"]:hover {
+    background-color: rgb(0, 255, 8);
+    color: black;
+ }
+ form {
+    border: 2.5px solid black;
+    background-color: white;
+    width: 30%;
+    margin-left: 35%;
+ }
+body {
+    height: 62.9em;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(black, #7d0093, #ffc600); /* Standard syntax (must be last) */
+ }
+ /* ===============================MODAL========================= */
+ /* The Modal (background) */
+ .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+ }
+ /* Modal Content */
+ .modal-content {
+    position: relative;
+    background-color: #ffc600;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+ }
+ /* Add Animation */
+ @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+ }
+ @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+ }
+ /* The Close Button */
+ .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+ }
+ .close:hover,
+ .close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+ }
+ .modal-header {
+    padding: 10px 16px;
+    background-color: black;
+    color: white;
+ }
+ .modal-body {
+    padding: 2px 16px;
+ }
+ .modal-footer {
+    padding: 2px 16px;
+    background-color: black;
+    color: white;
+ }
+ 
+#bt-mobile-menu{
+    display: none;
+}

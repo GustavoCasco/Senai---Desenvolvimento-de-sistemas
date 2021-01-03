@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="img/play-button.png" rel="icon" type="image/x-icon"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Filmes</title>
+</head>
+
+     <body>
+          <header>
+
+              <nav>   
+                <div id="selection-container">                   
+                    <img class="logo" src="img/logo.png" alt="logo"> 
+                    <div class="nav">            
+                        <li><a>Perfil</a></li>
+                        <li><a>Filmes</a></li>
+                        <li><a>Generos</a></li>             
+                    </div> 
+                     
+                </div>
+              </nav>
+
+          </header>
+
+          <main>
+                <div class="titulo-container">
+                    <h2>Filmes</h2>
+                    <img src="img/cinema.png" alt="cinema" width="80vh">
+                </div>
+
+                <table id="Tabela">
+                <h3> Listar filmes</h3>
+                <br>
+                    <thead>
+                        <tr>
+                            <th>Título</th>
+                          <div id="genero">
+                              <th>Gênero</th>
+                          </div>
+                        </tr>
+                    </thead>
+                </table>
+                <div class="botaoListar">
+                <button onclick="renderFilmes()">Listar Filmes</button>
+                </div>
+          </main>
+          <footer>
+              <div class="footer-container">
+                  <img src="img/video-player.png" alt="logo" width="200vh">
+                  <div class="logo-fc">
+                      <h4>FILMES</h4>
+                      <p>Colection</p>
+                    </div>
+                    <hr>
+                    <div class="conteudo-footer"> 
+                        <li><a>Company Inc, 8901 Marmora Road, Glasglow, DD489GR</a></li>
+                        <li><a>Call us now toll free: (800) 2345-6789</a></li>
+                        <li><a>Customer support: support@demolink.org</a></li>
+                        <li><a>Skype: sample-username</a></li>
+                    </div> 
+                </div>
+            </footer>
+            <script src="./script.js"></script>
+        </body>
+            </html>

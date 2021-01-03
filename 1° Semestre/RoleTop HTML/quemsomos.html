@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="img/logo.png" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="quemsomos.css">
+    <script src="https://kit.fontawesome.com/349a64cb04.js"></script>
+
+
+    <title>Quem somos</title>
+</head>
+<body>
+    <header>
+            <nav>
+                <div class="section-container">
+                   
+                <ul>
+                        <li id="bt-mobile-menu">
+                                <!-- HTML para colocar os ícones do FA -->
+                                <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
+                                    <i class="fa fa-bars"></i>
+                                </a> </li>
+                                <div id="logo-area">
+                                    <img src="img/logo.png" alt="logo" >
+                                </div>
+                                
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="index.html">Home</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="quemsomos.html">Quem Somos</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="oespaço.html">O espaço</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="eventos.html">Eventos</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="galeria.html">Galeria</a></li>
+                    <li><a href="login.html"><img src="img/icons8-customer-100.png" alt="login" style="width: 40%"></a></li>
+                </ul>
+               
+            </div>
+            
+        </nav>
+
+        <div id="logo-area">
+                <a href="homepag.html"><img src="img/logo.png" alt="logo"></a>
+         </div>  
+    </header>
+
+    <main> <hr>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3 id="titulo"> Quem Somos</h3>
+        <div id="border">
+
+            <div id="jackielee">        
+                <img src="img/jackie-lee-1.jpg" alt="Bruce Lee">
+            </div>
+
+            <div id="quemsomos"> 
+                
+                
+                <p id="pessoa"> Fernando Pessoa (1888-1935) foi um dos mais importantes poetas da língua portuguesa 
+                    <br> e figura central do Modernismo português. Poeta lírico e nacionalista cultivou uma poe-
+                    <br>sia voltada aos temas tradicionais de Portugal e ao seu lirismo saudosista, que expressa 
+                    <br> reflexões sobre seu “eu profundo”, suas inquietações, sua solidão e seu tédio. Pessoa foi 
+                    <br> vários poetas ao mesmo tempo, criou heterônimos, poetas com personalidades próprias que 
+                    <br> escreveram sua poesia.</p>
+                    
+                    <hr> 
+                    <div >
+                        <p id="texto"> Jackie Chan (conhecido em Hong Kong como "Dragão Chan", em pin yin "cheng long" 成龙) nasceu em uma família extremamente pobre, 
+                            tão pobre que Chan quase foi vendido para um rico casal britânico quando ainda era bebê. Por volta de 1960, seu pai, Char-
+                            es Chan Chi-Ping, e sua mãe, Lee-Lee Chan Yuet-Wing, fugiram para Camberra, na Austrália, como refugiados da Guerra Civil 
+                            Chinesa. Antes de deixar a República Popular da China, Lee-Lee era empregada doméstica e Charles era mordomo, ambos trabalhavam 
+                            para o embaixador francês em Hong Kong.</p> 
+                        </div>   
+                    </div>
+                    
+                    <div id="chan">      
+                        <img src="img/jackie-chan-9542080-1-402.jpg" alt="Jackie Chan">   
+                    </div>
+                    <br>
+                </div>
+            </main>
+
+     <footer>
+
+                    <div id="rodape">
+         
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="quemsomos.html">Quem Somos</a></li>
+                            <li><a href="oespaço.html">O espaço</a></li>
+                            <li><a href="eventos.html">Eventos</a></li>
+                            <li><a href="galeria.html">Galeria</a></li>
+                         </ul>
+                     </div>
+                     <hr>
+                     <hr>
+                     <hr>
+                     <hr>
+                 <div id="termos"></div>
+                 <img src="" alt="">
+                 
+         
+                  <div id="redessociais">
+                     
+                      <p> <img src="img/1024px-Copyright.svg.png" alt="">Todos os direitos reservados </p>
+                      <div id="redessociais2">
+                      <img src="img/icons8-facebook-96.png" alt="Facebook">
+                      <img src="img/icons8-instagram-96.png" alt="Instagram">
+                      <img src="img/icons8-whatsapp-100.png" alt="Whatsapp">
+         
+                     </div>
+                      <address id="endereço">
+                             Avenida de Limeira, 539 - Campos Elíseos - SP
+                             <br />
+                             mcbonalds@email.com
+                             <br />
+                             11 1234 6789
+                      </address>
+                  </div> 
+         
+          
+                     
+         
+         
+     </footer>
+     <script>
+        function toggleMobileMenu() {
+            var ul = document.querySelector("nav ul");
+            var commonButtons = document.querySelectorAll("nav .bt-common-menu");
+            var icon = document.querySelector(".icon > i");
+
+            ul.classList.toggle("mobile-mode");
+
+            if (icon.classList.contains("fa-bars")) {
+                icon.classList.remove("fa-bars");
+                icon.classList.remove("fa");
+
+                icon.classList.add("fas");
+                
+            } else {
+                icon.classList.remove("fas");
+                
+
+                icon.classList.add("fa");
+                icon.classList.add("fa-bars");
+            }
+
+            for (var button of commonButtons) {
+                button.classList.toggle("active");
+            }
+
+        }
+        
+    </script>
+            
+        </body>
+        </html>

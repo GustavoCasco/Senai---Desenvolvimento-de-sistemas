@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>idghfruei</title>
+</head>
+
+<body>
+    <form class="form" onsubmit="buscarCep(event, this);">
+        <div class="row">
+            <div class="form___group">
+                <input autofocus autocomplete="off" class="form___data" id="cep" maxlength="8" name="cep" pattern="([\d]{8})" placeholder="Digite o CEP aqui" required type="text">
+                <span class="form___requirement">* O campo deve ser informado com apenas números.</span>
+            </div>
+        </div>
+        <div class="row has-alignCenter">
+            <button class="form__button" type="submit">Buscar CEP</button>
+        </div>
+    </form>
+    <br>
+    <div id="r"></div> 
+
+    <script>
+        function buscarCep(event, form) {
+            event.preventDefault();
+            const inputCep = form.cep;
+            if (inputCep) {
+                const cep = inputCep.value;
+                if (cep.length === 8) {
+                    const URL =  `https://viacep.com.br/ws/${cep}/json/`;
+                    fetch(URL)
+                    .then(resposta => resposta.json())
+                    .then(data => mostrarResposta(data))
+                    .catch(erro => console.error(erro));
+                }
+            }
+        }
+
+        function mostrarResposta(cep) {
+        const mensagem = `
+            <p>CEP: ${cep.cep}</p>
+            <p>Logradouro: ${cep.logradouro}</p>
+            <p>Complemento: ${cep.complemento}</p>
+            <p>Bairro: ${cep.bairro}</p>
+            <p>Cidade: ${cep.localidade}</p>
+            <p>Estado: ${cep.uf}</p>
+        `;
+       
+        r.innerHTML=mensagem;
+    }
+     </script>
+
+</body>
+</html>

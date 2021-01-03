@@ -1,0 +1,29 @@
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.header{
+    background-color: #9BD2DE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.allign {
+width: 1024px;
+margin: auto
+}
+
+.menu{
+list-style: none;
+display: flex;
+justify-content: space-between;
+width: 300px;
+}
+
+.menu .link{
+text-decoration: none;
+color: #4b2124;
+font-weight: bold;
+}
