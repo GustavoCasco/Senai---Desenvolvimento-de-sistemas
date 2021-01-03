@@ -1,0 +1,11 @@
+C:\Users\51628550813\Documents\Exercicio\tabela\obj\Debug\netcoreapp2.2\tabela.csprojAssemblyReference.cache
+C:\Users\51628550813\Documents\Exercicio\tabela\obj\Debug\netcoreapp2.2\tabela.csproj.CoreCompileInputs.cache
+C:\Users\51628550813\Documents\Exercicio\tabela\obj\Debug\netcoreapp2.2\tabela.AssemblyInfoInputs.cache
+C:\Users\51628550813\Documents\Exercicio\tabela\obj\Debug\netcoreapp2.2\tabela.AssemblyInfo.cs
+C:\Users\51628550813\Documents\Exercicio\tabela\bin\Debug\netcoreapp2.2\tabela.deps.json
+C:\Users\51628550813\Documents\Exercicio\tabela\bin\Debug\netcoreapp2.2\tabela.runtimeconfig.json
+C:\Users\51628550813\Documents\Exercicio\tabela\bin\Debug\netcoreapp2.2\tabela.runtimeconfig.dev.json
+C:\Users\51628550813\Documents\Exercicio\tabela\bin\Debug\netcoreapp2.2\tabela.dll
+C:\Users\51628550813\Documents\Exercicio\tabela\bin\Debug\netcoreapp2.2\tabela.pdb
+C:\Users\51628550813\Documents\Exercicio\tabela\obj\Debug\netcoreapp2.2\tabela.dll
+C:\Users\51628550813\Documents\Exercicio\tabela\obj\Debug\netcoreapp2.2\tabela.pdb

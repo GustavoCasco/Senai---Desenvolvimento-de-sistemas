@@ -1,0 +1,11 @@
+C:\Users\51628550813\Documents\Exercicio\impares\obj\Debug\netcoreapp2.2\impares.csprojAssemblyReference.cache
+C:\Users\51628550813\Documents\Exercicio\impares\obj\Debug\netcoreapp2.2\impares.csproj.CoreCompileInputs.cache
+C:\Users\51628550813\Documents\Exercicio\impares\obj\Debug\netcoreapp2.2\impares.AssemblyInfoInputs.cache
+C:\Users\51628550813\Documents\Exercicio\impares\obj\Debug\netcoreapp2.2\impares.AssemblyInfo.cs
+C:\Users\51628550813\Documents\Exercicio\impares\bin\Debug\netcoreapp2.2\impares.deps.json
+C:\Users\51628550813\Documents\Exercicio\impares\bin\Debug\netcoreapp2.2\impares.runtimeconfig.json
+C:\Users\51628550813\Documents\Exercicio\impares\bin\Debug\netcoreapp2.2\impares.runtimeconfig.dev.json
+C:\Users\51628550813\Documents\Exercicio\impares\bin\Debug\netcoreapp2.2\impares.dll
+C:\Users\51628550813\Documents\Exercicio\impares\bin\Debug\netcoreapp2.2\impares.pdb
+C:\Users\51628550813\Documents\Exercicio\impares\obj\Debug\netcoreapp2.2\impares.dll
+C:\Users\51628550813\Documents\Exercicio\impares\obj\Debug\netcoreapp2.2\impares.pdb

@@ -1,0 +1,11 @@
+C:\Users\51628550813\Documents\Exercicio\Atividade\Decisão e Repetição\Ex12\bin\Debug\netcoreapp2.2\Ex12.deps.json
+C:\Users\51628550813\Documents\Exercicio\Atividade\Decisão e Repetição\Ex12\bin\Debug\netcoreapp2.2\Ex12.runtimeconfig.json
+C:\Users\51628550813\Documents\Exercicio\Atividade\Decisão e Repetição\Ex12\bin\Debug\netcoreapp2.2\Ex12.runtimeconfig.dev.json
+C:\Users\51628550813\Documents\Exercicio\Atividade\Decisão e Repetição\Ex12\bin\Debug\netcoreapp2.2\Ex12.dll
+C:\Users\51628550813\Documents\Exercicio\Atividade\Decisão e Repetição\Ex12\bin\Debug\netcoreapp2.2\Ex12.pdb
+C:\Users\51628550813\Documents\Exercicio\Atividade\Decisão e Repetição\Ex12\obj\Debug\netcoreapp2.2\Ex12.csprojAssemblyReference.cache
+C:\Users\51628550813\Documents\Exercicio\Atividade\Decisão e Repetição\Ex12\obj\Debug\netcoreapp2.2\Ex12.csproj.CoreCompileInputs.cache
+C:\Users\51628550813\Documents\Exercicio\Atividade\Decisão e Repetição\Ex12\obj\Debug\netcoreapp2.2\Ex12.AssemblyInfoInputs.cache
+C:\Users\51628550813\Documents\Exercicio\Atividade\Decisão e Repetição\Ex12\obj\Debug\netcoreapp2.2\Ex12.AssemblyInfo.cs
+C:\Users\51628550813\Documents\Exercicio\Atividade\Decisão e Repetição\Ex12\obj\Debug\netcoreapp2.2\Ex12.dll
+C:\Users\51628550813\Documents\Exercicio\Atividade\Decisão e Repetição\Ex12\obj\Debug\netcoreapp2.2\Ex12.pdb

@@ -1,0 +1,11 @@
+C:\Users\51628550813\Documents\Exercicio\Atividade\Arrays\Ex8\bin\Debug\netcoreapp2.2\Ex8.deps.json
+C:\Users\51628550813\Documents\Exercicio\Atividade\Arrays\Ex8\bin\Debug\netcoreapp2.2\Ex8.runtimeconfig.json
+C:\Users\51628550813\Documents\Exercicio\Atividade\Arrays\Ex8\bin\Debug\netcoreapp2.2\Ex8.runtimeconfig.dev.json
+C:\Users\51628550813\Documents\Exercicio\Atividade\Arrays\Ex8\bin\Debug\netcoreapp2.2\Ex8.dll
+C:\Users\51628550813\Documents\Exercicio\Atividade\Arrays\Ex8\bin\Debug\netcoreapp2.2\Ex8.pdb
+C:\Users\51628550813\Documents\Exercicio\Atividade\Arrays\Ex8\obj\Debug\netcoreapp2.2\Ex8.csprojAssemblyReference.cache
+C:\Users\51628550813\Documents\Exercicio\Atividade\Arrays\Ex8\obj\Debug\netcoreapp2.2\Ex8.csproj.CoreCompileInputs.cache
+C:\Users\51628550813\Documents\Exercicio\Atividade\Arrays\Ex8\obj\Debug\netcoreapp2.2\Ex8.AssemblyInfoInputs.cache
+C:\Users\51628550813\Documents\Exercicio\Atividade\Arrays\Ex8\obj\Debug\netcoreapp2.2\Ex8.AssemblyInfo.cs
+C:\Users\51628550813\Documents\Exercicio\Atividade\Arrays\Ex8\obj\Debug\netcoreapp2.2\Ex8.dll
+C:\Users\51628550813\Documents\Exercicio\Atividade\Arrays\Ex8\obj\Debug\netcoreapp2.2\Ex8.pdb

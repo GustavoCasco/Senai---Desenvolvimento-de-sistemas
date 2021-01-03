@@ -1,0 +1,11 @@
+C:\Users\51628550813\Documents\Exercicio\MataODragao\bin\Debug\netcoreapp2.2\MataODragao.deps.json
+C:\Users\51628550813\Documents\Exercicio\MataODragao\bin\Debug\netcoreapp2.2\MataODragao.runtimeconfig.json
+C:\Users\51628550813\Documents\Exercicio\MataODragao\bin\Debug\netcoreapp2.2\MataODragao.runtimeconfig.dev.json
+C:\Users\51628550813\Documents\Exercicio\MataODragao\bin\Debug\netcoreapp2.2\MataODragao.dll
+C:\Users\51628550813\Documents\Exercicio\MataODragao\bin\Debug\netcoreapp2.2\MataODragao.pdb
+C:\Users\51628550813\Documents\Exercicio\MataODragao\obj\Debug\netcoreapp2.2\MataODragao.csprojAssemblyReference.cache
+C:\Users\51628550813\Documents\Exercicio\MataODragao\obj\Debug\netcoreapp2.2\MataODragao.csproj.CoreCompileInputs.cache
+C:\Users\51628550813\Documents\Exercicio\MataODragao\obj\Debug\netcoreapp2.2\MataODragao.AssemblyInfoInputs.cache
+C:\Users\51628550813\Documents\Exercicio\MataODragao\obj\Debug\netcoreapp2.2\MataODragao.AssemblyInfo.cs
+C:\Users\51628550813\Documents\Exercicio\MataODragao\obj\Debug\netcoreapp2.2\MataODragao.dll
+C:\Users\51628550813\Documents\Exercicio\MataODragao\obj\Debug\netcoreapp2.2\MataODragao.pdb

@@ -1,0 +1,11 @@
+C:\Users\51628550813\Documents\Exercicio\Atividade\ZooLogico\bin\Debug\netcoreapp2.1\ZooLogico.deps.json
+C:\Users\51628550813\Documents\Exercicio\Atividade\ZooLogico\bin\Debug\netcoreapp2.1\ZooLogico.runtimeconfig.json
+C:\Users\51628550813\Documents\Exercicio\Atividade\ZooLogico\bin\Debug\netcoreapp2.1\ZooLogico.runtimeconfig.dev.json
+C:\Users\51628550813\Documents\Exercicio\Atividade\ZooLogico\bin\Debug\netcoreapp2.1\ZooLogico.dll
+C:\Users\51628550813\Documents\Exercicio\Atividade\ZooLogico\bin\Debug\netcoreapp2.1\ZooLogico.pdb
+C:\Users\51628550813\Documents\Exercicio\Atividade\ZooLogico\obj\Debug\netcoreapp2.1\ZooLogico.csprojAssemblyReference.cache
+C:\Users\51628550813\Documents\Exercicio\Atividade\ZooLogico\obj\Debug\netcoreapp2.1\ZooLogico.csproj.CoreCompileInputs.cache
+C:\Users\51628550813\Documents\Exercicio\Atividade\ZooLogico\obj\Debug\netcoreapp2.1\ZooLogico.AssemblyInfoInputs.cache
+C:\Users\51628550813\Documents\Exercicio\Atividade\ZooLogico\obj\Debug\netcoreapp2.1\ZooLogico.AssemblyInfo.cs
+C:\Users\51628550813\Documents\Exercicio\Atividade\ZooLogico\obj\Debug\netcoreapp2.1\ZooLogico.dll
+C:\Users\51628550813\Documents\Exercicio\Atividade\ZooLogico\obj\Debug\netcoreapp2.1\ZooLogico.pdb

@@ -1,0 +1,11 @@
+C:\Users\51628550813\Documents\Exercicio\Byte-Bank\bin\Debug\netcoreapp2.2\Byte-Bank.deps.json
+C:\Users\51628550813\Documents\Exercicio\Byte-Bank\bin\Debug\netcoreapp2.2\Byte-Bank.runtimeconfig.json
+C:\Users\51628550813\Documents\Exercicio\Byte-Bank\bin\Debug\netcoreapp2.2\Byte-Bank.runtimeconfig.dev.json
+C:\Users\51628550813\Documents\Exercicio\Byte-Bank\bin\Debug\netcoreapp2.2\Byte-Bank.dll
+C:\Users\51628550813\Documents\Exercicio\Byte-Bank\bin\Debug\netcoreapp2.2\Byte-Bank.pdb
+C:\Users\51628550813\Documents\Exercicio\Byte-Bank\obj\Debug\netcoreapp2.2\Byte-Bank.csprojAssemblyReference.cache
+C:\Users\51628550813\Documents\Exercicio\Byte-Bank\obj\Debug\netcoreapp2.2\Byte-Bank.csproj.CoreCompileInputs.cache
+C:\Users\51628550813\Documents\Exercicio\Byte-Bank\obj\Debug\netcoreapp2.2\Byte-Bank.AssemblyInfoInputs.cache
+C:\Users\51628550813\Documents\Exercicio\Byte-Bank\obj\Debug\netcoreapp2.2\Byte-Bank.AssemblyInfo.cs
+C:\Users\51628550813\Documents\Exercicio\Byte-Bank\obj\Debug\netcoreapp2.2\Byte-Bank.dll
+C:\Users\51628550813\Documents\Exercicio\Byte-Bank\obj\Debug\netcoreapp2.2\Byte-Bank.pdb

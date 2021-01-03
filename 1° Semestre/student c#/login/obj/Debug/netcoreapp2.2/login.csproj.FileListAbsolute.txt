@@ -1,0 +1,11 @@
+C:\Users\51628550813\Documents\Exercicio\login\obj\Debug\netcoreapp2.2\login.csprojAssemblyReference.cache
+C:\Users\51628550813\Documents\Exercicio\login\obj\Debug\netcoreapp2.2\login.csproj.CoreCompileInputs.cache
+C:\Users\51628550813\Documents\Exercicio\login\obj\Debug\netcoreapp2.2\login.AssemblyInfoInputs.cache
+C:\Users\51628550813\Documents\Exercicio\login\obj\Debug\netcoreapp2.2\login.AssemblyInfo.cs
+C:\Users\51628550813\Documents\Exercicio\login\bin\Debug\netcoreapp2.2\login.deps.json
+C:\Users\51628550813\Documents\Exercicio\login\bin\Debug\netcoreapp2.2\login.runtimeconfig.json
+C:\Users\51628550813\Documents\Exercicio\login\bin\Debug\netcoreapp2.2\login.runtimeconfig.dev.json
+C:\Users\51628550813\Documents\Exercicio\login\bin\Debug\netcoreapp2.2\login.dll
+C:\Users\51628550813\Documents\Exercicio\login\bin\Debug\netcoreapp2.2\login.pdb
+C:\Users\51628550813\Documents\Exercicio\login\obj\Debug\netcoreapp2.2\login.dll
+C:\Users\51628550813\Documents\Exercicio\login\obj\Debug\netcoreapp2.2\login.pdb

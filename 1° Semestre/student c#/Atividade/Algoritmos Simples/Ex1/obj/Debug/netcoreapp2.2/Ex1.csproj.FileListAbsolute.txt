@@ -1,0 +1,11 @@
+C:\Users\51628550813\Documents\Exercicio\Atividade\Algoritmos Simples\Ex1\obj\Debug\netcoreapp2.2\Ex1.csprojAssemblyReference.cache
+C:\Users\51628550813\Documents\Exercicio\Atividade\Algoritmos Simples\Ex1\obj\Debug\netcoreapp2.2\Ex1.csproj.CoreCompileInputs.cache
+C:\Users\51628550813\Documents\Exercicio\Atividade\Algoritmos Simples\Ex1\obj\Debug\netcoreapp2.2\Ex1.AssemblyInfoInputs.cache
+C:\Users\51628550813\Documents\Exercicio\Atividade\Algoritmos Simples\Ex1\obj\Debug\netcoreapp2.2\Ex1.AssemblyInfo.cs
+C:\Users\51628550813\Documents\Exercicio\Atividade\Algoritmos Simples\Ex1\bin\Debug\netcoreapp2.2\Ex1.deps.json
+C:\Users\51628550813\Documents\Exercicio\Atividade\Algoritmos Simples\Ex1\bin\Debug\netcoreapp2.2\Ex1.runtimeconfig.json
+C:\Users\51628550813\Documents\Exercicio\Atividade\Algoritmos Simples\Ex1\bin\Debug\netcoreapp2.2\Ex1.runtimeconfig.dev.json
+C:\Users\51628550813\Documents\Exercicio\Atividade\Algoritmos Simples\Ex1\bin\Debug\netcoreapp2.2\Ex1.dll
+C:\Users\51628550813\Documents\Exercicio\Atividade\Algoritmos Simples\Ex1\bin\Debug\netcoreapp2.2\Ex1.pdb
+C:\Users\51628550813\Documents\Exercicio\Atividade\Algoritmos Simples\Ex1\obj\Debug\netcoreapp2.2\Ex1.dll
+C:\Users\51628550813\Documents\Exercicio\Atividade\Algoritmos Simples\Ex1\obj\Debug\netcoreapp2.2\Ex1.pdb
