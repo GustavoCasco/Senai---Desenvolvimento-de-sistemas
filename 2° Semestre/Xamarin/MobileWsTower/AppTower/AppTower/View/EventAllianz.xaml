@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Allianz Parque"
+             x:Class="AppTower.View.EventAllianz">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Image
+               Source="allianz.png"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                  Margin="0,60,0,0"
+               />
+            <StackLayout>
+                <Label Text="Proximos eventos"
+                       FontSize="25"
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       Margin="0,60,0,0"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Devido a pandemia do covid-19 os eventos foram temporariamente cancelado"
+                       HorizontalOptions="Center"
+                       TextColor="Black"
+                       FontSize="15"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Image
+                BackgroundColor="Gray"
+                HeightRequest="1"
+                HorizontalOptions="FillAndExpand"
+                />
+                <Label
+                                        FontSize="16"
+                                        Text="20/08/2022"
+                                        HorizontalOptions="StartAndExpand"
+                                    />
+                <ListView
+                x:Name="jogosList" HasUnevenRows="True"
+                >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout
+                                Orientation="Horizontal"
+                                >
+
+                                    <Label
+                                    Text="Chile"
+                                    HorizontalOptions="Start"
+                                    VerticalOptions="CenterAndExpand"
+                                     
+                                        
+                                />
+                                    <Image Source="Chile_Bandeira.jpg"
+                                               WidthRequest="50"
+                                           HorizontalOptions="Start"
+                                    VerticalOptions="EndAndExpand"
+                                           />
+                                    <Label
+                                    Text="{Binding placarCasa}"
+                                    HorizontalOptions="CenterAndExpand"
+                                    VerticalOptions="CenterAndExpand"
+                                />
+                                    <Label
+                                    Text="X"
+                                    HorizontalOptions="Center"
+                                    VerticalOptions="Center"
+                                />
+                                    <Label
+                                    Text="{Binding placarVisitante}"
+                                    HorizontalOptions="CenterAndExpand"
+                                    VerticalOptions="CenterAndExpand"
+                                />
+                                    <Image Source="Brasil_Bandeira.jpg"
+                                               WidthRequest="50"
+                                           HorizontalOptions="End"
+                                    VerticalOptions="EndAndExpand"/>
+                                    <Label
+                                    Text="{Binding selecaoVisitante}"
+                                    HorizontalOptions="Center"
+                                    VerticalOptions="CenterAndExpand"
+                                     
+                                />
+
+
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+
+                </ListView>
+
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

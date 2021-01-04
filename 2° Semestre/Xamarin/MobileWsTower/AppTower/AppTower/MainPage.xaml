@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"     
+             x:Class="AppTower.MainPage">
+    <MasterDetailPage.Master>
+        <ContentPage  BackgroundColor="LightSteelBlue" Title="Menu">
+            <StackLayout Margin="5,30,5,5">
+                <Image
+                    Source= "WS_Towers.png"
+                    WidthRequest="150"
+                    Margin="0,20,0,30"
+                    />
+                <Button Text="Principal" BackgroundColor="White" Clicked="Button_Clicked">
+                </Button>
+                <Button Text="Sobre nós" BackgroundColor="White" Clicked="Button_Clicked_1">
+                </Button>
+                <Button Text="Sair" BackgroundColor="White" Clicked="Button_Clicked_2" Margin="5,30,5,0" VerticalOptions="EndAndExpand">
+                </Button>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        
+    </MasterDetailPage.Detail>
+
+</MasterDetailPage>

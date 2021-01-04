@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppTower.View.CadastroView">
+    <ContentPage.Content>
+        <StackLayout
+            Padding="20"
+            >
+            <StackLayout
+                VerticalOptions="CenterAndExpand"
+                Spacing="10"
+                >
+                <Image
+                    Source="WS_Towers.png"
+                    WidthRequest="200"
+                    Margin="0,20,0,0"
+                    />
+                <Entry
+                    x:Name="txtUsuario"
+                    Placeholder="Nome*"
+                    HorizontalOptions="FillAndExpand"
+                    />
+                <Entry
+                    x:Name="txtApelido"
+                    Placeholder="Apelido*"
+                    HorizontalOptions="FillAndExpand"
+                    />
+                <Entry
+                    x:Name="txtEmail"
+                    Placeholder="Email*"
+                    HorizontalOptions="FillAndExpand"
+                    />
+                <Entry
+                    x:Name="txtSenha"
+                    Placeholder="Senha*"
+                    HorizontalOptions="FillAndExpand"
+                    />
+                <Button
+                    Text="Cadastrar-se"
+                    TextColor="White"
+                    BackgroundColor="{StaticResource green}"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    CornerRadius="8"
+                    x:Name="btn_registrar"
+                    Clicked="btnRegistrar_clicked"
+                    />
+                <StackLayout Orientation="Horizontal" Margin="0,10,0,0">
+                    <Label Text="Gravar senha?" TextColor="Black" FontSize="18"/>
+                    <Switch x:Name="SalvaSenha_Toggle" IsToggled="True" HorizontalOptions="Start"/>
+                </StackLayout>
+            </StackLayout>
+            <Button
+                Clicked="btnLogin_Clicked"
+                Text="Login"
+                TextColor="{StaticResource blue}"
+                BackgroundColor="Transparent"
+                VerticalOptions="EndAndExpand"
+                FontSize="20"
+                />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

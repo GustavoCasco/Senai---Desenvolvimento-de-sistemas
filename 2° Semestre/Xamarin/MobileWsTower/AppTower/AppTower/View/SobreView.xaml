@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Sobre nós"
+             x:Class="AppTower.View.SobreView">
+    <ContentPage.Content>
+        <StackLayout
+            Padding="20"
+            VerticalOptions="CenterAndExpand"
+            Spacing="10">
+            <Image
+                Source="WS_Towers.png"
+                WidthRequest="200"
+                Margin="0,10,0,5"
+                />
+            <Label
+                Text="For Events Of All Kind"
+                FontSize="22"
+                HorizontalOptions="CenterAndExpand"
+                TextColor="{StaticResource blue}"
+                />
+            <Label
+                Text=" About us"
+                FontSize="20"
+                TextColor="Black"
+                BackgroundColor="{StaticResource blue}"
+                />
+            <Label
+                Text="Criada em 1981, a WS Tower é hoje um dos maiores conglomerados do país!"
+                FontSize="17"
+                TextColor="Black"/>
+            <Label
+                Text="Possuímos características e atuações em diferentes áreas: construção, comércio e confecção de shows e eventos."
+                FontSize="17"
+                TextColor="Black"/>
+            <Label
+                Text="Procuramos identificar as necessidades do mercado e trazer para o Brasil novas soluções de engenharia e modelos de negócios. Sempre levando em conta a sustentabilidade em nossos empreendimentos."
+                FontSize="17"
+                TextColor="Black"/>
+            <Label
+                Text="Dessa forma, tornamos nossos serviços cada vez melhores para o nosso usuário e queremos melhorar cada dia mais."
+                FontSize="17"
+                TextColor="Black"/>
+            <Label
+                Text="Nós da WS Tower agradecemos a todos os usuários."
+                FontSize="17"
+                TextColor="Black"/>
+            <Label
+                Text="©2020 Todos os direitos reservados"
+                TextColor="{StaticResource blue}"
+                BackgroundColor="Transparent"
+                Margin="0,10,0,0"
+                VerticalOptions="EndAndExpand"
+                HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

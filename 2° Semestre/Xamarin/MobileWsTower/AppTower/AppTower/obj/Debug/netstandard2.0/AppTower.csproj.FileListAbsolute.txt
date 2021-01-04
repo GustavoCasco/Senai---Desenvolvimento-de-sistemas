@@ -1,0 +1,79 @@
+C:\Users\fic\source\repos\AppTower\AppTower\AppTower\bin\Debug\netstandard2.0\AppTower.deps.json
+C:\Users\fic\source\repos\AppTower\AppTower\AppTower\bin\Debug\netstandard2.0\AppTower.dll
+C:\Users\fic\source\repos\AppTower\AppTower\AppTower\bin\Debug\netstandard2.0\ref\AppTower.dll
+C:\Users\fic\source\repos\AppTower\AppTower\AppTower\bin\Debug\netstandard2.0\AppTower.pdb
+C:\Users\fic\source\repos\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.csprojAssemblyReference.cache
+C:\Users\fic\source\repos\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\fic\source\repos\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\fic\source\repos\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.AssemblyInfoInputs.cache
+C:\Users\fic\source\repos\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.AssemblyInfo.cs
+C:\Users\fic\source\repos\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.dll
+C:\Users\fic\source\repos\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\ref\AppTower.dll
+C:\Users\fic\source\repos\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.pdb
+C:\Users\fic\source\repos\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\Menu\Detail.xaml.g.cs
+C:\Users\fic\source\repos\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\Menu\Master.xaml.g.cs
+C:\Users\fic\source\repos\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\CadastroView.xaml.g.cs
+C:\Users\fic\source\repos\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\LoginView.xaml.g.cs
+C:\Users\Guilherme Casco\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.csprojAssemblyReference.cache
+C:\Users\Guilherme Casco\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Guilherme Casco\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Guilherme Casco\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\CadastroView.xaml.g.cs
+C:\Users\Guilherme Casco\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\LoginView.xaml.g.cs
+C:\Users\Guilherme Casco\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\PrincipalView.xaml.g.cs
+C:\Users\Guilherme Casco\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\SobreView.xaml.g.cs
+C:\Users\Guilherme Casco\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\SplashView.xaml.g.cs
+C:\Users\Guilherme Casco\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.AssemblyInfoInputs.cache
+C:\Users\Guilherme Casco\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.AssemblyInfo.cs
+C:\Users\Guilherme Casco\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme Casco\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.dll
+C:\Users\Guilherme Casco\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\ref\AppTower.dll
+C:\Users\Guilherme Casco\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.pdb
+C:\Users\Guilherme Casco\Desktop\MOBILE\AppTower\AppTower\AppTower\bin\Debug\netstandard2.0\AppTower.deps.json
+C:\Users\Guilherme Casco\Desktop\MOBILE\AppTower\AppTower\AppTower\bin\Debug\netstandard2.0\AppTower.dll
+C:\Users\Guilherme Casco\Desktop\MOBILE\AppTower\AppTower\AppTower\bin\Debug\netstandard2.0\ref\AppTower.dll
+C:\Users\Guilherme Casco\Desktop\MOBILE\AppTower\AppTower\AppTower\bin\Debug\netstandard2.0\AppTower.pdb
+C:\Users\Guilherme Casco\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Guilherme Casco\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\EventArenaCorin.xaml.g.cs
+C:\Users\fic\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\fic\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\fic\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\CadastroView.xaml.g.cs
+C:\Users\fic\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\EventArenaCorin.xaml.g.cs
+C:\Users\fic\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\LoginView.xaml.g.cs
+C:\Users\fic\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\PrincipalView.xaml.g.cs
+C:\Users\fic\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\SobreView.xaml.g.cs
+C:\Users\fic\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\SplashView.xaml.g.cs
+C:\Users\fic\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.AssemblyInfo.cs
+C:\Users\fic\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.dll
+C:\Users\fic\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\ref\AppTower.dll
+C:\Users\fic\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.pdb
+C:\Users\fic\Desktop\MOBILE\AppTower\AppTower\AppTower\bin\Debug\netstandard2.0\AppTower.deps.json
+C:\Users\fic\Desktop\MOBILE\AppTower\AppTower\AppTower\bin\Debug\netstandard2.0\AppTower.dll
+C:\Users\fic\Desktop\MOBILE\AppTower\AppTower\AppTower\bin\Debug\netstandard2.0\ref\AppTower.dll
+C:\Users\fic\Desktop\MOBILE\AppTower\AppTower\AppTower\bin\Debug\netstandard2.0\AppTower.pdb
+C:\Users\fic\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\fic\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\EventAllianz.xaml.g.cs
+C:\Users\fic\Desktop\MOBILE\AppTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\EventMaracana.xaml.g.cs
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\bin\Debug\netstandard2.0\AppTower.deps.json
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\bin\Debug\netstandard2.0\AppTower.dll
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\bin\Debug\netstandard2.0\ref\AppTower.dll
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\bin\Debug\netstandard2.0\AppTower.pdb
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.csprojAssemblyReference.cache
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\CadastroView.xaml.g.cs
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\EventAllianz.xaml.g.cs
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\EventArenaCorin.xaml.g.cs
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\EventMaracana.xaml.g.cs
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\LoginView.xaml.g.cs
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\PrincipalView.xaml.g.cs
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\SobreView.xaml.g.cs
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\obj\Debug\netstandard2.0\View\SplashView.xaml.g.cs
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.AssemblyInfoInputs.cache
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.AssemblyInfo.cs
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.dll
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\obj\Debug\netstandard2.0\ref\AppTower.dll
+C:\Users\Guilherme Casco\Desktop\Senai---Desenvolvimento-de-sistemas\2° Semestre\Xamarin\MobileWsTower\AppTower\AppTower\obj\Debug\netstandard2.0\AppTower.pdb

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppTower.View.LoginView">
+    <ContentPage.Content>
+        <StackLayout
+            Padding="20"
+            Spacing="20"
+            >
+            <Image
+                Source="WS_Towers.png"
+                WidthRequest="300"
+                Margin="50"
+                />
+            <Entry
+                x:Name="txtUsuario"
+                Placeholder="Usuário ou email"
+                HorizontalOptions="FillAndExpand"
+                 TextChanged="User_TextChanged"
+                />
+            <Entry
+                x:Name="txtSenha"
+                Placeholder="Senha"
+                HorizontalOptions="FillAndExpand"
+                />
+            <Button
+                Clicked="btnLogin_Clicked"
+                Text="Entrar"
+                TextColor="White"
+                BackgroundColor="{StaticResource green}"
+                HorizontalOptions="Center"
+                WidthRequest="150"
+                CornerRadius="8"
+               
+                />
+            <Button
+                Clicked="btnCadastro_Clicked"
+                Text="Cadastre-se"
+                TextColor="{StaticResource blue}"
+                BackgroundColor="Transparent"
+                VerticalOptions="EndAndExpand"
+                FontSize="20"
+                />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
