@@ -1,0 +1,281 @@
+﻿@model RoletopMVC.ViewModels.BaseViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="img/logo.png" rel="icon" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/349a64cb04.js"></script>
+    <title>Rolêtop</title>
+
+
+
+@if ("Home".Equals(@Model.NomeView))
+{
+<link href="/css/site.css" rel="stylesheet" type ="text/css">
+    
+}
+@if ("QuemSomos".Equals(@Model.NomeView))
+{
+    
+<link href="/css/quemsomos.css" rel="stylesheet" type ="text/css">
+}
+
+@if("Oespaço".Equals(@Model.NomeView))
+{
+<link href="/css/oespaço.css" rel="stylesheet" type ="text/css">
+
+}
+
+@if ("Eventos".Equals(@Model.NomeView))
+{
+
+<link href="/css/eventos.css" rel="stylesheet" type ="text/css">
+}
+
+@if ("Galeria".Equals(@Model.NomeView))
+{
+<link href="/css/galeria.css" rel="stylesheet" type ="text/css">
+    
+}
+
+@if ("Rave".Equals(@Model.NomeView))
+{
+<link href="/css/galeria.css" rel="stylesheet" type ="text/css">
+    
+}
+
+@if ("Baile".Equals(@Model.NomeView))
+{
+<link href="/css/galeria.css" rel="stylesheet" type ="text/css">
+    
+}
+@if ("Casamento".Equals(@Model.NomeView))
+{
+<link href="/css/galeria.css" rel="stylesheet" type ="text/css">
+    
+}
+
+@if ("Cadastro".Equals(@Model.NomeView))
+{
+    <link href="/css/cadastro.css" rel="stylesheet" type ="text/css">
+}
+
+
+@if ("Login".Equals(@Model.NomeView))
+{
+    <link href="/css/login.css" rel="stylesheet" type ="text/css">
+}
+
+@if ("Usuario".Equals(@Model.NomeView))
+{
+    <link href="/css/teladeusuario.css" rel="stylesheet" type ="text/css">
+}
+
+@if ("Novoevento".Equals(@Model.NomeView))
+{
+    <link href="/css/Novoseventos.css" rel="stylesheet" type ="text/css">
+}
+
+@if ("Aprovado".Equals(@Model.NomeView))
+{
+    <link href="/css/aprovado.css" rel="stylesheet" type ="text/css">
+}
+
+@if ("Recusado".Equals(@Model.NomeView))
+{
+    <link href="/css/recusado.css" rel="stylesheet" type ="text/css">
+}
+
+@if ("Pendentes".Equals(@Model.NomeView))
+{
+    <link href="/css/pendentes.css" rel="stylesheet" type ="text/css">
+}
+
+@if ("Orçamento".Equals(@Model.NomeView))
+{
+    <link href="/css/orçamento.css" rel="stylesheet" type ="text/css">
+}
+
+@if ("Dashboard".Equals(@Model.NomeView))
+{
+    <link href="/css/dashboard.css" rel="stylesheet" type ="text/css">
+}
+
+@if ("Eaprovado".Equals(@Model.NomeView))
+{
+    <link href="/css/EventosAprov.css" rel="stylesheet" type ="text/css">
+}
+
+@if ("Ereprovado".Equals(@Model.NomeView))
+{
+    <link href="/css/EventosReprovado.css" rel="stylesheet" type ="text/css">
+}
+
+<script src="https://kit.fontawesome.com/349a64cb04.js"></script>
+</head>
+<body>
+
+
+
+
+<nav>
+<div class =" bg-img"> 
+
+        <div class="topnav" id="myTopnav">
+            <a asp-controller="Home" asp-action="Index"><img src="~/img/logo.png" alt="logo da firma" style="width: 4em"></a>
+            <div id="topnav-left">
+                <a asp-controller="Home" asp-action="Index">Home</a>
+                <a asp-controller="QuemSomos" asp-action="Index"> Quem Somos</a>
+                <a asp-controller="Oespaço" asp-action="Index"> O espaço </a>
+                <a asp-controller="Eventos" asp-action="Index">Eventos</a>
+                <a asp-controller="Galeria" asp-action="Index">Galeria</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars fa-2x"></i>
+                </a>
+            </div>
+            <div class="topnav-right">
+
+            @if(string.IsNullOrEmpty(@Model.UsuarioEmail))
+                    {
+                <a asp-controller="Cliente" asp-action="Login"><i class="fas fa-user fa-2x"></i></a>
+                        
+                    }else{
+
+                    if (@Model.UsuarioEmail == "gugugacasco007@gmail.com")
+                    {
+                        <a asp-controller="Administrador" asp-action="Dashboard"><i class="fas fa-user fa-2x"></i></a>
+                        <a asp-controller="Cliente" asp-action="Logoff"><i class="fas fa-sign-out-alt fa-2x"></i></a>
+                    } else{
+
+                        <a asp-controller="Usuario" asp-action="Index"><i class="fas fa-user fa-2x"></i></a>
+                        <a asp-controller="Cliente" asp-action="Logoff"><i class="fas fa-sign-out-alt fa-2x"></i></a>
+                    }     
+                    
+                    }
+
+                
+                    
+                
+            
+            </div>
+        </div>
+</div>
+    </nav>
+
+@RenderBody()
+<br>
+<br>  
+<footer>
+    <div id="footer-section-container">
+        <div id="social-media">
+            <a><img src="~/img/facebook.png" alt="icone facebook" title="facebook"></a>
+            <a><img src="~/img/whatsapp.png" alt="icone whatsapp" title="whatsapp"></a>
+            <a><img src="~/img/youtube.png" alt="icone youtube" title="youtube"></a>
+            <a><img src="~/img/instagram.png" alt="icone instagram" title="instagram"></a>
+        </div>
+        <div id="footer-copyright">
+            <a asp-controller="Home" asp-action="Index"><img src="~/img/logo.png" alt="logo da firma" title="RoleTop" style="width: 4em"></a>
+            <p>Copyright 2019 RoleTop</p>
+        </div>
+        <div id="footer-text-media">
+            <h4>RoleTop | Festas e Eventos Sociais</h4>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+function myFunction() {
+var x = document.getElementById("myTopnav");
+if (x.className === "topnav") {
+    x.className += " responsive";
+} else {
+    x.className = "topnav";
+}
+}
+</script>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+    panel.style.display = "none";
+    } else {
+    panel.style.display = "block";
+    }
+});
+}
+</script>
+
+<script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+        </script>
+
+<script>
+    function toggleMobileMenu() {
+        var ul = document.querySelector("nav ul");
+        var commonButtons = document.querySelectorAll("nav .bt-common-menu");
+        var icon = document.querySelector(".icon > i");
+
+        ul.classList.toggle("mobile-mode");
+
+        if (icon.classList.contains("fa-bars")) {
+            icon.classList.remove("fa-bars");
+            icon.classList.remove("fa");
+
+            icon.classList.add("fas");
+            
+        } else {
+            icon.classList.remove("fas");
+            
+
+            icon.classList.add("fa");
+            icon.classList.add("fa-bars");
+        }
+
+        for (var button of commonButtons) {
+            button.classList.toggle("active");
+        }
+
+    }
+    
+</script>
+
+</body>
+</html>

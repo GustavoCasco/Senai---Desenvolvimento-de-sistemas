@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="dashboard.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="img/logo.png" rel="icon" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/349a64cb04.js"></script>
+
+    <title>Rolêtop</title>
+</head>
+<body>
+    <header>
+        <nav>
+                <div class="section-container">
+                   
+                <ul>
+                        <li id="bt-mobile-menu">
+                                <!-- HTML para colocar os ícones do FA -->
+                                <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
+                                    <i class="fa fa-bars"></i>
+                                </a> </li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="index.html">Home</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="quemsomos.html">Quem Somos</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="oespaço.html">O espaço</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="eventos.html">Eventos</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="galeria.html">Galeria</a></li>
+                    <li><a href="login.html"><img src="img/icons8-customer-100.png" alt="login" style="width: 100%"></a></li>
+                    
+                    
+                </ul>
+               
+            </div>
+            
+        </nav>
+
+        <div id="logo-area">
+            <img src="img/logo.png" alt="logo" >
+        </div>
+    </header>
+
+    <main>
+        <br>
+        <br>
+        <br>
+        <h2>Dashboard</h2>
+        <br>
+        <br>
+        <br>
+
+        <section id="status-pedidos">
+            <h3>Status dos pedidos</h3>
+            <br>
+            <br>
+            <br>
+            <div id="painel">
+                <div class="box-status-pedidos aprovados">
+                    <h4>Aprovados</h4>
+                    <p>3</p>
+                </div>
+                <div class="box-status-pedidos pendentes">
+                    <h4>Pendentes</h4>
+                    <p>3</p>
+                </div>
+                <div class="box-status-pedidos reprovados">
+                    <h4>Reprovados</h4>
+                    <p>3</p>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+
+        <section id="lista-pedidos">
+            <h3>Lista de pedidos</h3>
+            <br>
+            <br>
+            <br>
+            <table>
+                <thead>
+                    <tr>
+                        <th rowspan="2">Nome</th>
+                        <th rowspan="2">Endereço</th>
+                        <th colspan="2">Pedido</th>
+                        <th colspan="2" rowspan="2">Aprovar</th>
+                    </tr>
+                    <tr>
+                        <th><i class="fas fa-lightbulb"></i></th>
+                        <th><i class="fas fa-music"></i></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td colspan="6">
+                            <p>Pedidos atualizados em 11/09/2019 às 7:41</p>
+                        </td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td>Hebert Richard </td>
+                        <td>Rua Nomades, n0</td>
+                        <td>Alugar o espaço</td>
+                        <td>Iluminação</td>
+                        <td><a href="#"><i class="fas fa-check"></i></a></td>
+                        <td><a href="#"><i class="fas fa-times"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>Henrique de Ferraz</td>
+                        <td>Rua da Cachorrada</td>
+                        <td>Alugar espaço</td>
+                        <td>Musica</td>
+                        <td><a href="#"><i class="fas fa-check"></i></a></td>
+                        <td><a href="#"><i class="fas fa-times"></i></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <footer>
+
+            <div id="rodape">
+ 
+                <ul>
+                    <li><a href="homepag.html">Home</a></li>
+                    <li><a href="quemsomos.html">Quem Somos</a></li>
+                    <li><a href="oespaço.html">O espaço</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                 </ul>
+             </div>
+             <hr>
+             <hr>
+             <hr>
+             <hr>
+         <div id="termos"></div>
+         <img src="" alt="">
+         
+ 
+          <div id="redessociais">
+             
+              <p> <img src="img/1024px-Copyright.svg.png" alt="">Todos os direitos reservados </p>
+              <div id="redessociais2">
+              <img src="img/icons8-facebook-96.png" alt="Facebook">
+              <img src="img/icons8-instagram-96.png" alt="Instagram">
+              <img src="img/icons8-whatsapp-100.png" alt="Whatsapp">
+ 
+             </div>
+              <address id="endereço">
+                     Avenida de Limeira, 539 - Campos Elíseos - SP
+                     <br />
+                     mcbonalds@email.com
+                     <br />
+                     11 1234 6789
+              </address>
+          </div> 
+ 
+  
+ 
+</footer>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            var ul = document.querySelector("nav ul");
+            var commonButtons = document.querySelectorAll("nav .bt-common-menu");
+            var icon = document.querySelector(".icon > i");
+
+            ul.classList.toggle("mobile-mode");
+
+            if (icon.classList.contains("fa-bars")) {
+                icon.classList.remove("fa-bars");
+                icon.classList.remove("fa");
+
+                icon.classList.add("fas");
+                icon.classList.add("fa-skull");
+            } else {
+                icon.classList.remove("fas");
+                icon.classList.remove("fa-skull");
+
+                icon.classList.add("fa");
+                icon.classList.add("fa-bars");
+            }
+
+            for (var button of commonButtons) {
+                button.classList.toggle("active");
+            }
+
+        }
+        
+    </script>
+</body>
+
+</html>

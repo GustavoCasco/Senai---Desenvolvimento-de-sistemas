@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main {
+    height: 900px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient( to top right, #FFC600,#3F004A); /* Standard syntax (must be last) */
+
+}
+
+
+#logo-area {
+    background-color: #FFC600;
+    height: 100px;
+    
+}
+
+h3 {
+    text-align: center;
+}
+
+h3 a {
+    
+    color: black;
+    font-size: 2.5em;
+    text-decoration: none;
+
+}
+#logo-area img {
+    
+    height: 70px;
+    margin: 15px 0 0 10px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+ }
+ 
+ nav ul {
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+    height: 2.5em;
+    list-style-type: none;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 75%;
+    float: right;
+    padding: 1em;
+ }
+ 
+ a {
+    text-decoration: none;
+    color: black;
+}
+
+ #menu {
+    text-decoration: none;
+    list-style: none;
+    border: 4px solid black;
+    border-radius: 15px;
+    margin: 0 444px 0 444px;
+    text-align: center;
+    font-size: 1.4em;
+    padding: 2%;
+    background-color: #fff;
+   
+}
+
+p:hover {
+    background-color: #FFC600;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 1.3em;
+  }
+  td {
+      text-decoration: none;
+      color: black;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 16px;
+  }
+  
+  th:first-child, td:first-child {
+    text-align: left;
+  }
+  
+  tr {
+    background-color: #f2f2f2
+  }
+  
+  .fa-check {
+    color: green;
+  }
+  
+  .fa-remove {
+    color: red;
+  }
+
+  #alinhamento {
+      display: flex;
+      justify-content:space-evenly;
+      margin-top: 10%;
+      margin-right: 10%
+     
+    
+  }
+
+  #tabela {
+      
+  }
+
+  #bt-mobile-menu{
+    display: none;
+}
+      

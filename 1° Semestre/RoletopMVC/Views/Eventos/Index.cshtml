@@ -1,0 +1,84 @@
+@model RoletopMVC.ViewModels.EventosViewModel 
+    <main>
+                <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                          
+                          <img src="img/Planeta-Atlantida2018.jpg"  alt="O lugar"  style="width: 100%">
+                         
+                        </div>
+                        
+                        <div class="mySlides fade">
+                    
+                          <img src="img/images.jpg"  alt="O Lugar" style="width: 100%">
+                          
+                        </div>
+                        
+                        <div class="mySlides fade"  >
+                          
+                          <img src="img/festas-formaturas-divertidas-sua-sala-eventos.jpg" alt="O lugar" style="width: 100%">
+                          
+                        </div>
+                        
+                       
+                        
+                        </div>
+                        <br>
+                        
+                        <div style="text-align:center">
+                          <span class="dot" onclick="currentSlide(1)"></span> 
+                          <span class="dot" onclick="currentSlide(2)"></span> 
+                          <span class="dot" onclick="currentSlide(3)"></span> 
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        
+                        <div id="t1" >
+
+                          <h2>Eventos em Destaque</h2>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="imges1">
+                        @if (@Model.Eventos.Count > 0)
+                        {
+                            
+                        @foreach (var item in @Model.Eventos)
+                        { <div class="para">
+                            <img src="@item.Fotodeperfil" class="imagestratadas">
+                            <p>@item.NomeEvento</p>
+                            <p>@item.DiadoEvento.ToShortDateString()</p>
+                          </div>
+                        }
+                        }else {
+                           <div class="para">
+                          <p>Nenhum Evento disponivel</p>
+                          </div>
+                        }
+                        </div>
+
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    <div id="role">
+                        <h3> Realize seu sonho  aqui no RoleTop</h3>
+                        <br>
+                    
+                        <p> Faça já o seu orçamento</p>
+                       
+                        <br>
+                        <br>
+                        <a asp-controller="Cliente" asp-action="Login"> <button>Faça já o seu Role, top !!!</button> </a>
+                    </div>
+                     
+                      <br>
+                  
+                 
+                    
+                    
+                        
+        </main>

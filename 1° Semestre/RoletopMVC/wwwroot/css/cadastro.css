@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+ body {
+    height: 60.5em;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#FFC600,purple); /* Standard syntax (must be last) */
+ }
+
+
+ #logo-area img {
+    height: 200px;
+    margin: 15px 0 0 10px;
+ }
+
+ h1 {
+    text-align: center;
+    padding: 1em;
+    text-decoration: underline black;
+ }
+ #double-col  {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0em 2em;
+    font-weight: bold;
+ }
+ #double-col input {
+    height: 2.5em;
+    width: 45%;
+ }
+ input[type=submit] {
+    margin-left: 47%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 2%;
+ }
+ #align {
+    margin-left: 34.4%;
+ }
+ #double-line {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+ }
+ .container {
+    display: block;
+    position: relative;
+    padding-right: 5em;
+    margin-top: 0px;
+    margin-left: 25px;
+    font-size: 22px;
+    user-select: none;
+ }
+ input[type="checkbox"] {
+    cursor: pointer;
+ }
+ #double-line  a {
+    font-size: 22px;
+    cursor: pointer;
+ }
+ #register {
+    text-align: center;
+    padding: 1em;
+ }
+ #register a {
+    padding: 0 5px;
+    cursor: pointer;
+    text-decoration: underline black;
+ }
+ #line {
+    border: 2px solid black;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-top: 3.5%;
+    border-radius: 3em;
+    background-color: white;
+ }
+ #back {
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(black, #7d0093, #ffc600); /* Standard syntax (must be last) */
+    z-index: -1;
+    height: 62.9em;
+ }
+ input[type="email"] {
+    border: 1px solid black;
+    border-radius: 5px;
+ }
+ input[type="password"] {
+    border: 1px solid black;
+    border-radius: 5px;
+ }
+ #double-col label {
+   margin-top: 2%;
+ }
+ input[type="date"] {
+    border: 1px solid black;
+    border-radius: 5px;
+ }
+ input[type="text"] {
+    border: 1px solid black;
+    border-radius: 5px;
+ }
+
+ #bt-mobile-menu{
+   display: none;
+}
+ 
+/* Rodapé  */
+
+#footer-section-container {
+   display: flex;
+   justify-content: space-evenly;
+   background-color: rgb(34, 34, 34);
+   color: white;
+ }
+ #footer-copyright {
+   text-align: center;
+ }
+ #footer-copyright img {
+   padding: 10px 0 0 0;
+ }
+ #footer-copyright p {
+   padding:  5px 0 5px 0;
+   font-family: 'Roboto', sans-serif;
+   color: white;
+ }
+ #social-media {
+   display: flex;
+   align-items:  center;
+ }
+ #social-media a {
+   padding: 0 10px 0 0;
+ }
+ #footer-text-media {
+   display: flex;
+   align-items: center;
+ }
+ #footer-text-media h4{
+   font-family: 'Roboto', sans-serif;
+ }
+ @media screen and (max-width: 625px) {
+   #footer-text-media {
+     display: none;
+   }
+   #footer-section-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   #social-media{
+     padding: 10px 0 4px 0;
+   }
+ }
+
+ @media screen and (max-width: 625px) {
+   .topnav a:not(:first-child) , #test
+   {
+       display: none;
+   }
+   .topnav a.icon {
+       float: right;
+       display: block;
+       margin: -3px 0 0 0;
+       color: white;
+   }
+ }
+ @media screen and (max-width: 625px) {
+   .topnav.responsive
+   {
+       position: block;
+   }
+   .topnav.responsive .icon {
+     position: absolute;
+     right: 0;
+     top: 10px;
+     color: yellow
+   }
+   .topnav-right {
+       position: absolute;
+       right: 50px;
+       top: 15px;
+   }
+   .topnav.responsive a {
+     float: none;
+     display: block;
+     text-align: left;
+   }
+   #container-main {
+
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+   }
+
+   .bg-img {
+     width: 100%;
+   }
+ }
+
+ .topnav {
+   overflow: hidden;
+   /* background-color: rgb(34, 34, 34); */
+   font-family: 'Noto Sans', sans-serif;
+  
+
+   background-color:#0009;
+   background-repeat: no-repeat;
+  
+ }
+ #topnav-left {
+   margin: 15px 0 0 0;
+}
+.topnav a {
+ float: left;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+ 
+}
+.topnav a:hover {
+ /* background-color: #ddd; */
+ color: yellow;
+ background-color: rgb(84, 0, 100);
+}
+.topnav-right {
+ float :right;
+}
+.topnav-right i {
+   margin: -6px 0 0 0;
+}
+.topnav .icon {
+   display: none;
+}

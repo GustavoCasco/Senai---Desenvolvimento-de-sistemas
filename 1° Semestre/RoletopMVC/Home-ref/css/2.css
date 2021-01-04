@@ -1,0 +1,270 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+main {
+    height: 2000px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#FFC600,purple); /* Standard syntax (must be last) */
+
+}
+
+
+#logo-area img {
+
+  height: 70px;
+    margin: 15px 0 0 10px;
+   margin-left: -400%;
+    
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+    height: 2.5em;
+    list-style-type: none;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 75%;
+    float: right;
+    padding: 1em;
+}
+
+nav {
+    background-color: #FFC600;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+nav #bt-mobile-menu {
+    display: none;
+}
+
+
+nav ul > li {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul > li > a {
+    padding: 0.4em;
+    display: block;
+    text-decoration: none;
+    color: #361a0c;
+    font-weight: bold;
+}
+
+nav ul > li > a:hover {
+    background-color: #6B40B8;
+    color: #fff;
+}
+
+nav ul > li:last-child {
+    font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;
+}
+
+
+
+   
+
+
+ #banner > img {
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 1600em;
+    height: 800em;
+   
+ }
+
+ 
+ #foto{
+     width: 1920px;
+     height: 650px;
+     margin: 0;
+ }
+
+ #images {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+
+ }
+ .cifrão {
+     height: 200px;
+     width: 260px;
+     margin: 0;
+ }
+    
+ h3 {
+     text-align: center;
+     font-weight: bold;
+     
+
+ }
+
+  #estrutura{
+    padding: 0 6em 0 0;
+    font-size: 1.7em;
+  
+  }
+
+  #cifrao {
+    padding: 0 7.2em 0 0;
+    font-size: 1.7em; 
+  
+  }
+
+  #PorqueescolheroRolêtop {
+      font-size: 2.5em;
+  }
+
+  #investimento {
+    font-size: 1.7em; 
+
+  }
+
+  p {
+      font-size: 1.3em;
+  }
+
+  #Faq {
+      border-color: 2px black;
+      border: 5PX solid black;
+      text-align: center;
+      max-width: 50%;
+      margin: 0 444px 0 444px;
+  }
+   
+  #Titulo {
+      font-size: 2.5em
+  }
+
+footer  {
+    background-color: #FFF;
+   
+    max-height: 250px;
+}
+
+#rodape ul{
+    font-size: 1.3em;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+footer a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+#redessociais {
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+   
+
+
+}
+
+#redessociais img {
+    padding: 0.2em;
+    width: 2.5em;
+
+}
+
+#redessociais Address {
+    text-align: center;   
+    display: flex;
+    justify-content: center;
+}
+
+
+.back-faq {
+    background-color: #fff;
+}
+
+@media (max-width: 625px) {
+
+nav #bt-mobile-menu {
+    display: block;
+
+}
+
+nav .bt-common-menu {
+    display: none;
+    z-index: 9999;
+    
+}
+
+nav .bt-common-menu.active {
+    display: block;
+   
+}
+
+nav ul.mobile-mode {
+    display: flex;
+    flex-direction: column;
+
+ }
+
+}
+
+li {
+    list-style: none;
+    
+}
+
+#sectioncontainer {
+    border: 2px solid beige;
+}
+
+@media (max-width: 625px) {
+    #images {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .cifrão {
+        text-align: center;
+        margin-left: 10%;
+        
+    }
+
+    #cifrão {
+        text-align: center;
+        margin-left: 60%;        
+    }
+
+    #Faq {
+        width: 100%;
+        margin-left: 28%;
+    }
+
+    address {
+        display: none;
+    }
+
+ nav {
+    position: none;
+ }
+}
+
+#bt-mobile-menu {
+    display: none;
+
+}

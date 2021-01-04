@@ -1,0 +1,34 @@
+ <main>
+        
+            <div id="line">
+                    <form method= "POST" action='@Url.Action("CadastrarCliente" , "Cadastro")'>
+                            <h1>Cadastro</h1>
+                        <div id="align">
+                            <div id="double-col">
+                                <label for="email">Email</label>
+                                <br>
+                                <input type="email"  placeholder="Email" name="email">
+                                <label for="senha">Senha</label>
+                                <br>
+                                <input type="password" placeholder="Senha" name="senha">
+                                <label for="nome">Nome Completo</label>
+                                <br>
+                                <input type="text"  placeholder="Nome" name="nome">
+                                <label for="teleone">Telefone</label>
+                                <br>
+                                <input type="text" placeholder="telefone/celular" name="telefone">
+                                <label for="cpf">CPF</label>
+                                <br>
+                                <input type="text"  placeholder="CPF" name="cpf">
+                                <label for="data">Data de Nascimento</label>
+                                <br>
+                                <input type="date" placeholder="Data de Nascimento" name="data_nascimento">
+                            </div>
+                        </div>
+                        <input type="submit" value="Registrar">
+                        <br>
+                        <br>
+                    </form>
+                </div>
+                            
+    </main>

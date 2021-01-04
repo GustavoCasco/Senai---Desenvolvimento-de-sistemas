@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+ body {
+    height: 60.5em;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#FFC600,purple); /* Standard syntax (must be last) */
+ }
+
+
+ #logo-area img {
+    height: 200px;
+    margin: 15px 0 0 10px;
+ }
+
+ h1 {
+    text-align: center;
+    padding: 1em;
+    text-decoration: underline black;
+ }
+ #double-col  {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0em 2em;
+    font-weight: bold;
+ }
+ #double-col input {
+    height: 2.5em;
+    width: 45%;
+ }
+ input[type=submit] {
+    margin-left: 47%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 2%;
+ }
+ #align {
+    margin-left: 34.4%;
+ }
+ #double-line {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+ }
+ .container {
+    display: block;
+    position: relative;
+    padding-right: 5em;
+    margin-top: 0px;
+    margin-left: 25px;
+    font-size: 22px;
+    user-select: none;
+ }
+ input[type="checkbox"] {
+    cursor: pointer;
+ }
+ #double-line  a {
+    font-size: 22px;
+    cursor: pointer;
+ }
+ #register {
+    text-align: center;
+    padding: 1em;
+ }
+ #register a {
+    padding: 0 5px;
+    cursor: pointer;
+    text-decoration: underline black;
+ }
+ #line {
+    border: 2px solid black;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-top: -3.5%;
+    border-radius: 3em;
+    background-color: white;
+ }
+ #back {
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(black, #7d0093, #ffc600); /* Standard syntax (must be last) */
+    z-index: -1;
+    height: 62.9em;
+ }
+ input[type="email"] {
+    border: 1px solid black;
+    border-radius: 5px;
+ }
+ input[type="password"] {
+    border: 1px solid black;
+    border-radius: 5px;
+ }
+ #double-col label {
+   margin-top: 2%;
+ }
+ input[type="date"] {
+    border: 1px solid black;
+    border-radius: 5px;
+ }
+ input[type="text"] {
+    border: 1px solid black;
+    border-radius: 5px;
+ }
+
+ #bt-mobile-menu{
+   display: none;
+}
+ 

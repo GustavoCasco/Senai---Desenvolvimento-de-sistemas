@@ -1,0 +1,53 @@
+ @model RoletopMVC.ViewModels.DashboardViewModel 
+  <main>
+                <br>
+                <br>
+                <br>
+                <h3><a href="teladeusuario.html"> Meus eventos</a></h3>
+         <div id="alinhamento" > 
+
+                    <div id="menu" >
+                    <br>
+                    <br>   
+                    <p><a asp-action="Aprovado" asp-controller="MeusEventos"> Aprovados</a></p>
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
+                    <br>
+                    <p><a asp-action="Recusado" asp-controller="MeusEventos">Recusado</a> </p>
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
+                    <br>
+                    <p> <a asp-action="Pendentes" asp-controller="MeusEventos"> Pendentes</a></p>
+                    <br>
+                    <br>
+        </div>
+        
+        <table>
+            <div id="tabela" >
+                
+              <tr>
+                    <th>Nome do Cliente</th>
+                    <th style="width:50%">Eventos</th>
+                    <th>Tipo de Evento</th>
+                    <th>Status</th>
+                    <th>Preço total</th>
+                    
+                </tr>
+                    @foreach(var item in Model.Ependentes )
+                    {     
+                      <tr> 
+                        <td>@item.Cliente.Nome</td>
+                        <td>@item.NomeEvento</td>
+                        <td>@item.TipoEvento</td>
+                        <td>@item.Serviços.Nome</td>
+                          <td>@item.PrecoTotal</td>
+                    </tr>
+                        }
+            </div>
+            </table>
+    </div>
+    </main>

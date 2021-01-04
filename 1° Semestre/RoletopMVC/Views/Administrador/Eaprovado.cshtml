@@ -1,0 +1,71 @@
+@model RoletopMVC.ViewModels.DashboardViewModel
+<main>
+        <h2>Dashboard</h2>
+        <section id="status-pedidos">
+            <h3>Status dos pedidos</h3>
+         <div id="painel">
+                <div  class="box-status-pedidos aprovados">
+                    <h4 ><a asp-action="Eaprovado" asp-controller="Administrador">Aprovados</a></h4>
+                    <p>@Model.EventosAprovados</p>
+                </div>
+                <div   class="box-status-pedidos pendentes">
+                       <h4 ><a asp-action="Dashboard" asp-controller="Administrador">Pendentes</a></h4>
+                    <p>@Model.EventosPendentes</p>
+                </div>
+                <div  class="box-status-pedidos reprovados">
+                       <h4 ><a asp-action="Ereprovado" asp-controller="Administrador">Reprovado</a></h4>
+                    <p>@Model.EventosReprovados</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="lista-pedidos">
+            <h3>Lista de pedidos</h3>
+            <table>
+                <thead>
+                    <tr>
+                         <th rowspan="2">Nome</th>
+                          <th rowspan="2">Nome do Evento</th>
+                        <th rowspan="2">Tipo de Evento</th>
+                        <th colspan="1">Serviços</th>
+                        <th colspan="2" rowspan="2">Aprovar</th>
+                    </tr>
+                    <tr>
+                        <th><i class="fas fa-globe"></i></th>
+                      
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td colspan="6">
+                            <p>Eventos atualizados em @DateTime.Now</p>
+                        </td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                   
+                   
+                   
+                         @foreach(var item in Model.Evento )
+                    {
+                        if (item.Status == 1)
+                        {
+                        <tr> 
+                        <td>@item.Cliente.Nome</td>
+                        <td>@item.NomeEvento</td> 
+                        <td>@item.TipoEvento</td>
+                        <td>@item.Serviços.Nome</td>
+                        
+                        </tr>
+                            
+                        }
+                    }
+                       
+                    
+                </tbody>
+            </table>
+        </section>
+
+    </main>

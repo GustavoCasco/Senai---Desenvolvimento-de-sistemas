@@ -1,0 +1,25 @@
+@model RoletopMVC.ViewModels.BaseViewModel
+<main>
+        <br>
+        <br>
+        <br>
+        <h4><img  id="user" src="img/user60.png" alt="Login" style="width: 15%">@Model.UsuarioNome</h4>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div id="menu" >
+            <br>
+            <li><a asp-action="Index" asp-controller="NovosEventos">Novos Eventos</a> </li>
+            <br>
+            
+            <br>
+            <li><a asp-action="Aprovado" asp-controller="MeusEventos" > Meus Eventos</a></li>
+            <br>
+            
+         
+    
+        </div>
+    </main>

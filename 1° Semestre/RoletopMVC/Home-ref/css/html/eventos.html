@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="img/logo.png" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="eventos.css">
+    <script src="https://kit.fontawesome.com/349a64cb04.js"></script>
+
+    <title>Eventos</title>
+</head>
+<body>
+        <header>
+            <nav>
+                <div class="section-container">
+                   
+                <ul>
+                        <li id="bt-mobile-menu">
+                                <!-- HTML para colocar os ícones do FA -->
+                                <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
+                                    <i class="fa fa-bars"></i>
+                                </a> </li>
+                                <div id="logo-area">
+                                    <img src="img/logo.png" alt="logo" >
+                                </div>
+                                
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="index.html">Home</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="quemsomos.html">Quem Somos</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="oespaço.html">O espaço</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="eventos.html">Eventos</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="galeria.html">Galeria</a></li>
+                    <li><a href="login.html"><img src="img/icons8-customer-100.png" alt="login" style="width: 33%"></a></li>
+                </ul>
+               
+            </div>
+            
+        </nav>
+        </header>
+
+        <main>
+                <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                          
+                          <img src="img/Planeta-Atlantida2018.jpg"  alt="O lugar"  style="width: 100%">
+                         
+                        </div>
+                        
+                        <div class="mySlides fade">
+                    
+                          <img src="img/images.jpg"  alt="O Lugar" style="width: 100%">
+                          
+                        </div>
+                        
+                        <div class="mySlides fade"  >
+                          
+                          <img src="img/festas-formaturas-divertidas-sua-sala-eventos.jpg" alt="O lugar" style="width: 100%">
+                          
+                        </div>
+                        
+                       
+                        
+                        </div>
+                        <br>
+                        
+                        <div style="text-align:center">
+                          <span class="dot" onclick="currentSlide(1)"></span> 
+                          <span class="dot" onclick="currentSlide(2)"></span> 
+                          <span class="dot" onclick="currentSlide(3)"></span> 
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        
+                        <div id="t1" >
+
+                          <h2>Eventos em Destaque</h2>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+
+                        <div id="destaque" >
+
+                          <br>
+                          <br>
+                          <br>
+                          <br>
+                          <img id="img" src="img/DfsPbq9XkAA2Zd2.jpg" alt="Evento" >
+                          <br>
+                          <br>
+                          <img id="hr" src="img/casamento-famosos-2018-3-1.png" alt="Evento" >
+                          <br>
+                          <br>
+                          <br>
+                          <img src="img/festa-15-anos-maisa_02 (1).jpg" alt="Evento" >
+                        </div>
+
+                        <div id="Legenda"> 
+                          <P id="Marilia" >Marilia Mendonça ja veio na casa.  </P>
+                          <br>
+                          <p id="lexa" > Guimê casou aqui</p>
+                          <br>
+                          <br>
+                          <p id="maisa">Maisa fez sua festa de 15 anos aqui</p>
+
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    <div id="role">
+                        <a href="login.html"> <button>Faça já o seu Role, top !!!</button> </a>
+                    </div>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                    
+                        
+        </main>
+        <footer>
+
+                <div id="rodape">
+     
+                    <ul>
+                        <li><a href="homepag.html">Home</a></li>
+                        <li><a href="quemsomos.html">Quem Somos</a></li>
+                        <li><a href="oespaço.html">O espaço</a></li>
+                        <li><a href="eventos.html">Eventos</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                     </ul>
+                 </div>
+                 <hr>
+                 <hr>
+                 <hr>
+                 <hr>
+             <div id="termos"></div>
+             <img src="" alt="">
+             
+     
+              <div id="redessociais">
+                 
+                  <p> <img src="img/1024px-Copyright.svg.png" alt="">Todos os direitos reservados </p>
+                  <div id="redessociais2">
+                  <img src="img/icons8-facebook-96.png" alt="Facebook">
+                  <img src="img/icons8-instagram-96.png" alt="Instagram">
+                  <img src="img/icons8-whatsapp-100.png" alt="Whatsapp">
+     
+                 </div>
+                  <address id="endereço">
+                         Avenida de Limeira, 539 - Campos Elíseos - SP
+                         <br />
+                         mcbonalds@email.com
+                         <br />
+                         11 1234 6789
+                  </address>
+              </div> 
+     
+      
+     
+    </footer>
+<script>
+    function toggleMobileMenu() {
+        var ul = document.querySelector("nav ul");
+        var commonButtons = document.querySelectorAll("nav .bt-common-menu");
+        var icon = document.querySelector(".icon > i");
+
+        ul.classList.toggle("mobile-mode");
+
+        if (icon.classList.contains("fa-bars")) {
+            icon.classList.remove("fa-bars");
+            icon.classList.remove("fa");
+
+            icon.classList.add("fas");
+            
+        } else {
+            icon.classList.remove("fas");
+            
+
+            icon.classList.add("fa");
+            icon.classList.add("fa-bars");
+        }
+
+        for (var button of commonButtons) {
+            button.classList.toggle("active");
+        }
+
+    }
+    
+  </script>
+        <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                }
+                </script>
+
+
+    
+</body>
+</html>

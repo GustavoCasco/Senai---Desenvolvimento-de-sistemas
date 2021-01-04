@@ -1,0 +1,31 @@
+<main>
+
+
+    <div id="line">
+       <form method= "POST" action='@Url.Action("Login" , "Cliente")'>
+        <h1>Login</h1>
+            <div id="align">
+                <div id="double-col">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email"  placeholder="Email" name="email">
+                    <br>
+                    <label for="senha">Senha</label>
+                    <br>
+                    <input type="password" placeholder="Senha" name ="senha" >
+                </div>
+            </div>
+            <input type="submit" value="Entrar" style="margin-top: -3em;">
+        </form>
+            <br>
+            <br>
+             <br>
+              <br>
+               <br>
+               
+            
+            <div id="register">
+                <p>Não tem conta?<a asp-controller="Cadastro" asp-action="Index">Registre Aqui</a></p>
+            </div>
+    </div>
+</main>
